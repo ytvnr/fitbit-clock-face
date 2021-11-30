@@ -1,0 +1,42 @@
+{
+  "name": "simple-face",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.2",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "f622e1b5-c5c4-4b89-a40e-0c95509a1a70",
+    "appType": "clockface",
+    "appDisplayName": "Simple Face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan",
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "simple-stat-clock-face"
+      },
+      "fr-FR": {
+        "name": "simple-stat-clock-face"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
