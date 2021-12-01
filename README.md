@@ -6,6 +6,6 @@
 
 ## Install
 
-`npx fitbit` -> Run Fitbit CLI
+`npx fitbit` or `npm run debug` -> Run Fitbit CLI
 
 then: `fitbit$: install`
